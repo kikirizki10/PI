@@ -15,7 +15,7 @@ class TblECommerce extends Migration
     {
       Schema::create('tbl_e-commerce', function($table){
         $table->string('id_e-commerce',8)->primary();
-        $table->string('link_e-commerce', 50);
+        $table->string('link_e-commerce');
         $table->string('id_product',8);
       });
     }
